@@ -1,0 +1,329 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<div class="for-color">
+<nav>
+    <div class="nav-img">
+
+        <img src="img/apani-chai-ki-dukan1new.png" alt="" class="img1">
+
+    </div>
+    <div class="nav-search">
+        <input type="search" name="" id="" placeholder="Search here..">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="nav-icons">
+
+        <i class="fa-solid fa-user" id="user" onclick="openTh()"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+
+
+</nav>
+<div class="container-1">
+    <div class="btn">
+        <a href="#book-table">Book Table <i class="fa-solid fa-mug-hot"></i></a>
+    </div>
+    <div class="menu-icon">
+        <button id="menu-icon" onclick="myFunction()"> <i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="menus">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Feedback</a>
+        <a href="">Contact</a>
+    </div>
+</div>
+<div class="menu-container" id="menu-bar">
+    <div class="inner-menu">
+        <a href="">Home </a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Feedback</a>
+        <a href="">Contact</a>
+    </div>
+</div>
+<div class="overlay" id="overlay">
+    <div class="form-container">
+        <div class="close">
+            <i class="fa-solid fa-xmark" id="close-form" onclick="closeTh()"></i>
+        </div>
+
+        <form action="" onsubmit="return validation()">
+
+            <h2>Sign Up</h2>
+            <input type="text" placeholder="Enter fullname" id="name">
+            <span id="nerror" class="error"></span>
+            <input type="email" name="" id="email" placeholder="Email">
+            <span id="emerror"  class="error"></span>
+            <input type="phone" name="" id="phone" placeholder="10 digit number">
+            <span id="perror"  class="error"></span>
+            <input type="password" name="" id="password" placeholder="creat password">
+            <span id="passerror"  class="error"></span>
+            <button type="submit">sign up</button>
+            <p>if you already sign up then <a href="" class="login-link">Login</a></p>
+
+
+        </form>
+    </div>
+
+
+    </form>
+</div>
+
+<div class="sliders-img">
+    <img src="img/Add a heading.png" alt="" class="img-car">
+     
+   
+
+</div>
+
+
+
+<div class="the-main-container">
+    <div class="heading-card">
+        <h1>Our Special <span class="heading.logo">chai's</span></h1>
+    </div>
+    <div class="card-container">
+        <div class="chai-card">
+            <img src="img/kulhad.jpg" alt="">
+            <h2>Special kulhad chai</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>20</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <button>take on table</button>
+        </div>
+        <div class="chai-card">
+            <img src="img/adark.jpg" alt="">
+            <h2>Special adrak chai</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>25</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <button>take on table</button>
+        </div>
+        <div class="chai-card">
+            <img src="img/gud chai.jpg" alt="">
+            <h2>Special gud chai</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>20</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <button>take on table</button>
+        </div>
+        <div class="chai-card">
+            <img src="img/masalachai.jpg" alt="">
+            <h2>Special masala chai</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>30</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+            </div>
+            <button>take on table</button>
+        </div>
+        <div class="chai-card">
+            <img src="img/tulsi.jpg" alt="">
+            <h2>Special tulsi chai</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>50</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <button>take on table</button>
+        </div>
+        <div class="chai-card">
+            <img src="img/tandoorchai.jpg" alt="">
+            <h2> tandoor chai</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>40</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <button>take on table</button>
+        </div>
+    </div>
+    <div class="heading-card">
+        <h1>Our Special <span class="heading.logo">snack's</span></h1>
+    </div>
+    <div class="card-container">
+        <div class="chai-card">
+            <img src="img/butter.jpg" alt="">
+            <h2>Butter Biscuit</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>20</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <button>take on table</button>
+        </div>
+        <div class="chai-card">
+            <img src="img/samosa2.jpg" alt="">
+            <h2>Samosa</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>15</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <button>take on table</button>
+        </div>
+        <div class="chai-card">
+            <img src="img/mathri.jpg" alt="">
+            <h2>Methi Mathari</h2>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i> <span>60</span> Only</p>
+            <div class="rating">
+                <h4>Rated </h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <button>take on table</button>
+        </div>
+    </div>
+
+
+    <div class="book-heading">
+    <h1>Book Table</h1>
+    </div>
+<div class="book-table-form" id="book-table">
+    <div class="book-img">
+        <div class="innerBook-heading">
+            <h1>INDIA'S LARGEST TEA CAFÉ CHAIN</h1>
+        </div>
+  <div><img src="img/about1-1.jpg" alt=""></div>
+    </div>
+   <div class="form-book" id="booking-form">
+    <form action="#modal" onsubmit="return validationBook()">
+        <h2>book table</h2>
+        <input type="text" name="" id="name1" placeholder="enter name">
+        <span class="error1" id="error-name"></span>
+        <input type="phone" name="" id="phone1" placeholder="enter mobile number">
+        <span class="error1" id="error-phone"></span>
+        <input type="date" name="" id="date1" >
+        <span class="error1" id="date-error"></span>
+        <select name="city" id="city">
+            <option value="">select city</option>
+            <option value="Indore">Indore</option>
+            <option value="Jabalpur">jabalpur</option>
+            <option value="Bhopal">bhopal</option>
+            <option value="Dewas">dewas</option>
+        </select>
+        <span class="error1" id="city-error"></span>
+        <select name="" id="table">
+            <option value="">Select table</option>
+            <option value="single chair">single chair</option>
+            <option value="2 person">Double chair</option>
+            <option value="4 person">4 person</option>
+            <option value="5 above">Above 5</option>
+        </select>
+        <span class="error1" id="table-error"></span>
+         <button >book table</button>
+    </form>
+   </div>
+</div>
+<div class="book-heading">
+    <h1 class="heading.logo">about</h1>
+</div>
+ <div class="about-container" id="about">
+    
+
+<div class="innertext">
+  <p> 
+     Chai is an authentic Indian street food restaurant located in Madhya Pradesh. Our journey began with a passion for bringing the true taste of India . We pride ourselves on the quality of our ingredients and the authenticity of our dishes. Our mission is to bring the best of Indian street food to the MP at affordable prices that cater to students and immigrants living in the area. </p>
+</div>
+<div class="inner-image">
+    <img src="img/bolo chai garm-Photoroom.jpg" alt="">
+    </div>
+ </div>
+ 
+<div class="footer-container">
+  <div class="footer-heading">
+   <h1>contact Us</h1>
+  </div>
+  <div class="footer-links">
+    <div class="links-f">
+        <h2>Address</h2><br>
+        <p>
+            100 , main road Indore <br>madhya pradesh <br>,409341, india
+        </p>
+    </div>
+    <div class="links-f">
+        <h2>Contact</h2><br>
+        <p>(+91) 7443 319922</p>
+        <p>apnidesichai.gmail.com</p>
+    </div>
+    <div class="links-f">
+        <h2>Opening Hours</h2><br>
+        <p>Monday to Friday - 9:00 to 11:30PM
+           </p>
+           <p>saturday to sunday - 11:30AM to 6:30PM</p>
+    </div>
+  </div>
+   <div class="footer-foot">
+    <div class="follow-links">
+        <span class="follow-heading">follow us</span>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+   </div>
+</div>
+ 
+</div>
+<div class="form-modal" id="modal">
+    <h1>your table booked succefuuly we send msg on your mobile number thankyou</h1>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
